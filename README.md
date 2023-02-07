@@ -8,3 +8,4 @@ The uploaded folders corresponds to the following problems from the thesis:
 - Problem6_rotated_ellipsoid_detection   $\leftrightarrow$   Problem 2: rotated ellipsoidal inclusion with unknown conductivity
 
 In each folder, the scrips with 2D in their names cover the pseudo-3D method and the scripts with 3D in their names cover the full-3D method.
+
