@@ -9,3 +9,4 @@ The uploaded folders corresponds to the following problems from the thesis:
 
 In each folder, the scrips with 2D in their names cover the pseudo-3D method and the scripts with 3D in their names cover the full-3D method.
 
+![pik](https://user-images.githubusercontent.com/56032006/217232346-d71c6b33-caa4-4cea-9ff5-f9b39781ee07.png)
