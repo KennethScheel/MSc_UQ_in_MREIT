@@ -1,0 +1,23 @@
+Loaded dependency [gcc/7.5.0]: binutils/2.29
+Loaded dependency [mpi/3.1.5-gcc-7.5.0]: gcc/7.5.0
+Loaded dependency [FEniCS/2019.1.0-with-petsc-3.10.5-and-numpy-1.16.5-and-slow-blas]: mpi/3.1.5-gcc-7.5.0
+Loaded module: FEniCS/2019.1.0-with-petsc-3.10.5-and-numpy-1.16.5-and-slow-blas
+
+Loading FEniCS/2019.1.0-with-petsc-3.10.5-and-numpy-1.16.5-and-slow-blas
+  Loading requirement: binutils/2.29 gcc/7.5.0 mpi/3.1.5-gcc-7.5.0
+--------------------------------------------------------------------------
+A process has executed an operation involving a call to the
+"fork()" system call to create a child process.  Open MPI is currently
+operating in a condition that could result in memory corruption or
+other system errors; your job may hang, crash, or produce silent
+data corruption.  The use of fork() (or system() or other calls that
+create child processes) is strongly discouraged.
+
+The process that invoked fork was:
+
+  Local host:          [[20496,1],0] (PID 25579)
+
+If you are *absolutely sure* that your application will successfully
+and correctly survive a call to fork(), you may disable this warning
+by setting the mpi_warn_on_fork MCA parameter to 0.
+--------------------------------------------------------------------------
